@@ -121,7 +121,6 @@
     }
 }
 
-//
 // side navaigation
 .side-nav {
     font-size: 1.4rem;
@@ -222,6 +221,8 @@
     @media only screen and (max-width: $bp-medium) {
         display: none;
     }
+
+    
 }
 
 //
@@ -578,4 +579,24 @@
         outline: none;
         animation: pulsate 1s infinite;
     }
+}
+
+.legal__aws {
+    &-link {
+        font-size: 2rem;
+        color: white;
+    }
+
+    &-image {
+        height: 3rem;
+        shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        flex: 0 0 25%;
+    }
+    padding-bottom: 2rem;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
 }
